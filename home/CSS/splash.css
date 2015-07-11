@@ -1,0 +1,62 @@
+.outer {
+   overflow: hidden;
+   position: relative;
+   -webkit-animation: moveToTop2 .8s ease-in-out both;
+   animation: moveToTop2 .8s ease-in-out both;
+   -webkit-animation-delay: 2.2s; /* Safari */
+   animation-delay: 2.2s;
+   display: block;
+}
+
+.float {
+    position: absolute;
+    -webkit-animation: moveToTop .7s ease-in-out both;
+    animation: moveToTop .7s ease-in-out both;
+    -webkit-animation-delay: 2.2s; /* Safari */
+    animation-delay: 2.2s;
+    animation-iteration-count: 0;
+    -webkit-animation-fill-mode: forwards;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    display: block;
+	overflow-x: hidden;
+
+}
+
+
+
+
+@-webkit-keyframes moveToTop {
+	from { }
+	to { -webkit-transform: translateY(-150%); }
+}
+@keyframes moveToTop {
+	from { }
+	to { -webkit-transform: translateY(-150%); transform: translateY(-150%); }
+}
+
+@-webkit-keyframes moveToTop2 {
+	from { -webkit-transform: translateY(30%);}
+	to { -webkit-transform: translateY(0%);}
+}
+@keyframes moveToTop2 {
+	from { -webkit-transform: translateY(30%); transform: translateY(30%);}
+	to { -webkit-transform: translateY(0%); transform: translateY(0%);}
+}
+
+/*@-webkit-keyframes floatBubble {
+    0% { -webkit-transform: translateY(0px); opacity: 1; }
+    100% { -webkit-transform: translateY(1100px); opacity: 0.8; }
+    
+}
+@keyframes floatBubble {
+    0% {
+        top:0px;
+    }
+    100% {
+        top: 1300px;
+    }
+} */
+
+

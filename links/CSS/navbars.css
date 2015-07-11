@@ -1,0 +1,124 @@
+/**** HEADER ****/
+
+#logo {
+    padding: 10px 5px 10px 5px;
+}
+
+#navigation {
+ margin: 0;
+ padding: 0 1em;
+ height: 5.5em;
+ list-style: none;
+ width: 900px;
+ margin: 0 auto;
+ z-index: 100;
+}
+
+#navigation > li {
+ float: right;
+ height: 100%;
+ margin-right: 0em;
+ padding: 0 1em;
+  z-index: 100;
+}
+
+#navigation > li > a {
+ float: right;
+ height: 100%;
+ color: #fff;
+ font-family: 'Raleway', sans-serif;
+ padding-top: 20px;
+ padding-left: 16px;
+ text-decoration: none;
+ line-height: 3;
+ font-weight: 400;
+ text-transform: uppercase;
+ z-index: 100;
+}
+
+#navigation > li > a:hover {
+ color: #c3a738;
+ font-family: 'Raleway', sans-serif;
+ text-decoration: none;
+ z-index: 100;
+}
+
+#navigation > li.sub ul {
+ width: 10em;
+ margin: 3.0em 0;
+ padding: 0.4em 0;
+ list-style: none;
+ background: rgba(0,0,0,0.75);
+ position: absolute;
+ top: -1000em;
+ z-index: 100;
+}
+
+#navigation > li.sub ul li {
+ width: 90%;
+ margin: 0 auto 0.3em auto;
+ z-index: 100;
+}
+
+#navigation > li.sub ul li a {
+ height: 100%;
+ display: block;
+ padding: 0.4em;
+ color: #fff;
+ font-weight: 400;
+ font-family: 'Raleway', sans-serif;
+ text-decoration: none;
+ z-index: 100;
+}
+
+#navigation > li.sub ul li a:hover {
+ background: rgba(255,255,255,0.4);
+ font-family: 'Raleway', sans-serif;
+ text-decoration: none;
+ z-index: 100;
+}
+
+#navigation > li.sub:hover ul {
+ top: 2.5em;
+ z-index: 100;
+}
+
+/**** FOOTER ****/
+
+#navigation2 {
+ padding: 0 1em;
+ height: 5.5em;
+ list-style: none;
+ width: 920px;
+ margin: 0 auto;
+ z-index: 100;
+ overflow: hidden;
+}
+
+#navigation2 > li {
+ float: right;
+ height: 100%;
+ padding: 0 1em;
+  z-index: 100;
+}
+
+#navigation2 > li > a {
+ float: right;
+ height: 100%;
+ color: #fff;
+ font-family: 'Raleway', sans-serif;
+ font-size: 10pt;
+ padding-top: 20px;
+ text-decoration: none;
+ line-height: 3.8;
+ font-weight: 400;
+ text-transform: uppercase;
+ z-index: 100;
+}
+
+#navigation2 > li > a:hover {
+ color: #c3a738;
+ font-family: 'Raleway', sans-serif;
+ text-decoration: none;
+ z-index: 100;
+}

@@ -1,0 +1,97 @@
+.slideshow {  
+    position: absolute;
+    z-index: 1;
+}
+
+.slideshow > div { 
+    position: absolute; 
+}
+
+.slideshow-wrapper { 
+    position: absolute; 
+    background: rgba(0,0,0,0.5);
+ 	width: 900px;
+ 	height: 350px;
+ 	overflow: hidden;
+ 	margin-top: 20px;
+	
+}
+
+#welcome {
+	position: absolute;
+}
+
+#welcome h2 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 392px;
+}
+
+#welcome p {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: .8em;
+    margin-right: 260px;
+    position: absolute;
+    width: 900px;
+}
+
+hr {
+   margin-top: -8px;
+   border: 2px solid #c3a738;
+   width: 75px;
+   margin-left: 0px;
+}
+
+.effect-goliath {
+}
+
+.effect-goliath img,
+.effect-goliath h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.effect-goliath img {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.effect-goliath h2,
+.effect-goliath p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+
+.effect-goliath p {
+	text-transform: none;
+	font-size: 90%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,50px,0);
+	transform: translate3d(0,50px,0);
+}
+
+.effect-goliath:hover img {
+	-webkit-transform: translate3d(0,-60px,0);
+	transform: translate3d(0,-60px,0);
+}
+
+.effect-goliath:hover h2 {
+	-webkit-transform: translate3d(0,-70px,0);
+	transform: translate3d(0,-70px,0);
+}
+
+.effect-goliath:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

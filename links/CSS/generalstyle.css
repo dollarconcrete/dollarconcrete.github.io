@@ -1,0 +1,153 @@
+body {
+	background: #1c1c1c;
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+    
+} 
+
+#background {
+    background-image: url('../Images/background.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+}
+
+.wrapper {
+ /* background: rgb(0,0,255); */
+ width: 900px;
+ min-height: 100%;
+ height: auto !important;
+ height: 100%;
+ margin: 0 auto -5.5em;
+ 
+ 
+}
+
+.header {
+ margin: 0;
+ padding: 0 1em;
+ background: rgba(0,0,0,0.5);
+ height: 5.5em;
+ list-style: none;
+}
+
+.footer {
+ margin-top: 330px;
+ background: rgba(0,0,0,0.5);
+ height: 5.5em;
+ list-style: none;
+}
+
+.footer p {
+ position: absolute;
+ padding-top: 20px;
+ padding-left: 15px;
+ text-align: center;
+ font-family: 'Raleway', sans-serif;
+ text-decoration: none;
+ color: #b8b8b8;
+ font-size: .75em;
+}
+
+#narrow {
+	display: none;
+}
+
+.aboutus {
+	margin-top: 30px;
+}
+
+.aboutus h2 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.aboutus p {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: .8em;
+    margin-right: 260px;
+    position: absolute;
+    width: 900px;
+}
+
+.ourpartners {
+	margin-top: 30px;
+}
+
+.ourpartners h2 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.ourpartners p {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: .8em;
+    position: absolute;
+    width: 900px;
+}
+
+.benefactors {
+	margin-top: 24px;
+}
+
+.benefactors h1 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.benefactors h2 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.benefactors p {
+	margin-top: 12px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    font-size: 1em;
+    position: absolute;
+    
+    /** -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2; **/
+}
+
+.benefactors a:link {
+    color: #888888;
+}
+
+.benefactors a:hover {
+    color: #d0d0d0;
+}
+
+a:visited {
+    color: #888888;
+}
+
+.grey {
+    color: #888888;
+}
+
+hr {
+   margin-top: -8px;
+   border: 2px solid #c3a738;
+   width: 75px;
+   margin-left: 0px;
+}
+

@@ -1,0 +1,94 @@
+.names-wrap {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.names {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	position: relative;
+	color: #fff;
+	width: 144px;
+	font-family: 'Raleway', sans-serif;
+	margin: 0px 16px 0px 16px;
+}
+
+.names a:link {
+    color: #888888;
+}
+
+.names a:hover {
+    color: #d0d0d0;
+}
+
+.partners-wrap {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+.partners{
+  display: inline-block;
+  background:url(../Images/agc.jpg) no-repeat;
+  background-size:146px 146px;
+  background-position:0px 0px;
+  height:146px;
+  width:146px;
+  border-radius:50%;
+  margin-top: 120px;
+  margin: 0px 16px 0px 0px;
+  overflow:hidden;
+}
+
+.partners2{
+  display: inline-block;
+  background:url(../Images/hbn.jpg) no-repeat;
+  background-size:146px 146px;
+  background-position:0px 0px;
+  height:146px;
+  width:146px;
+  border-radius:50%;
+  margin-top: 120px;
+  margin: 0px 16px 0px 16px;
+  overflow:hidden;
+}
+
+.partners3{
+  display: inline-block;
+  background:url(../Images/aci.jpg) no-repeat;
+  background-size:146px 146px;
+  background-position:0px 0px;
+  height:146px;
+  width:146px;
+  border-radius:50%;
+  margin-top: 120px;
+  margin: 0px 16px 0px 16px;
+  overflow:hidden;
+}
+
+.partners4{
+  display: inline-block;
+  background:url(../Images/crsi.jpg) no-repeat;
+  background-size:146px 146px;
+  background-position:0px 0px;
+  height:146px;
+  width:146px;
+  border-radius:50%;
+  margin-top: 120px;
+  margin: 0px 16px 0px 16px;
+  overflow:hidden;
+}
+
+.partners5{
+  display: inline-block;
+  background:url(../Images/cff.jpg) no-repeat;
+  background-size:146px 146px;
+  background-position:0px 0px;
+  height:146px;
+  width:146px;
+  border-radius:50%;
+  margin-top: 120px;
+  margin: 0px 0px 0px 16px;
+  overflow:hidden;
+}
