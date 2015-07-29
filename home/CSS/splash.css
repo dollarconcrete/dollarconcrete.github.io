@@ -36,7 +36,7 @@
     -webkit-animation-iteration-count: 1;
     -ms-animation-iteration-count: 0;
     -o-animation-iteration-count: 1;
-    animation-iteration-count: 1;
+    animation-iteration-count: 0;
     
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
