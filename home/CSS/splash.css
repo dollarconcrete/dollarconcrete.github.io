@@ -32,11 +32,11 @@
     -o-animation-delay: 2.2s;
     animation-delay: 2.2s;
     
-    -moz-animation-iteration-count: 0;
-    -webkit-animation-iteration-count: 0;
-    -ms-animation-iteration-count: 0;
-    -o-animation-iteration-count: 0;
-    animation-iteration-count: 0;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
     
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
