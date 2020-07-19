@@ -1,0 +1,151 @@
+.navigation {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: #0F0F0F;
+  z-index: 1000;
+}
+
+.nav-container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.nav-container img {
+  display: inline-block;
+  width: 190px;
+  margin: 16px 0px 0px 0px;
+}
+
+.nav-container ul {
+  display: inline-block;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  line-height: 80px;
+  list-style: none;
+}
+
+.nav-container li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+.nav-container li a {
+  float: right;
+  color: #FFFFFF;
+  font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav-container li a span {
+	color: #C2A642;
+}
+
+.nav-container li a:hover {
+  color: #C2A642;
+  transition:.2s;
+  -webkit-transition:.2s;
+}
+
+#line {
+  padding-left: 55px;
+}
+
+#line:after {
+  content: '';
+  height: 40px;
+  width: 1px;
+  background: #444444;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: -30px;
+}
+
+/*************************************/
+
+li.dropdown ul {
+  top: -10000px;
+  width: 205px;
+  background-color: #0F0F0F;
+  position: absolute;
+  margin-top: 48px;
+  margin-left: -30px;
+}
+
+li.dropdown:hover ul {
+  top: 32px;
+}
+
+li.dropdown:hover li {
+  border-top: 1px solid #444;
+  width: 175px;
+  line-height: 58px;
+}
+
+li.dropdown:hover li a {
+  float: left;
+}
+
+/*************************************/
+
+.hero-subnav ul {
+  display: inline-block;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.hero-subnav li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.hero-subnav li a {
+  float: left;
+  color: #C2A642;
+  font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.hero-subnav li a:hover {
+  color: #FFFFFF;
+  transition:.2s;
+  -webkit-transition:.2s;
+}
+
+/*************************************/
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #0F0F0F;
+  border-top: 5px solid #C2A642;
+}
+
+.footer p {
+  width: 100%;
+  color: #999999;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/**** Temporary Mobile Overrides ****/
+
+@media only screen and (max-width: 1270px) {
+  .navigation {
+    position: relative;
+    margin-bottom: -80px;
+  }
+}
