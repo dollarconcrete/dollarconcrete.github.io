@@ -111,6 +111,19 @@ body {
   margin: 20px 0px 0px 0px;
 }
 
+.service-text ul {
+  padding: 0px 0px 0px 20px;
+  margin: 20px 0px 0px 0px;
+}
+
+.service-text li {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 1px 0px 0px 0px;
+}
+
 .square-medium {
   display: inline-block;
   vertical-align: middle;
