@@ -35,9 +35,9 @@ body {
 }
 
 .hero-title {
-  width: fit-content;
   margin: 0 auto;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .hero-title h1 {

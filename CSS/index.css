@@ -42,9 +42,9 @@ body {
 }
 
 .hero-title {
-  width: fit-content;
   margin: 0 auto;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .hero-title h1 {
@@ -318,3 +318,19 @@ body {
 }
 
 /*************************************/
+
+/** Temporary Mobile Overrides **/
+@media only screen and (max-width: 1270px) {
+  #index-logo {
+     opacity: 0;
+     animation: none;
+  }
+  .hero {
+     box-shadow: none;
+     animation: none;
+  }
+  #index-navigation {
+     opacity: 1;
+     animation: none;
+  }
+}
