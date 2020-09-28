@@ -94,6 +94,10 @@ body {
   margin-left: 3%;
 }
 
+.reach-text p {
+  margin-bottom: 0%;
+}
+
 .reach-image {
   width: 55%;
   display: inline-block;
