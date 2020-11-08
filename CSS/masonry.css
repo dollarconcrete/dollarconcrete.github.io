@@ -58,10 +58,10 @@ body {
 }
 
 .about-logo {
-  width: 25%;
+  width: 20%;
   display: inline-block;
   vertical-align: top;
-  padding-right: 6%;
+  padding-right: 7%;
   border-right: 1px solid rgba(221,221,221,0.2);
 }
 
@@ -71,10 +71,10 @@ body {
 }
 
 .about-text {
-  width: 62%;
+  width: 65%;
   display: inline-block;
   vertical-align: top;
-  padding-left: 6%;
+  padding-left: 7%;
 }
 
 .about-text p {
