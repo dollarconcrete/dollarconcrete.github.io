@@ -15,7 +15,7 @@ body {
   height: 900px;
   background-size: cover;
   background-position: center;
-  background-image: url("../images/home/hero.jpg");
+  background-image: url("../images/home/home-hero.jpg");
   border-bottom: 5px solid #C2A642;
 }
 
@@ -181,7 +181,7 @@ body {
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url("../images/home/about-bg.jpg");
+  background-image: url("../images/home/home-about-bg.jpg");
 }
 
 .about-container {
