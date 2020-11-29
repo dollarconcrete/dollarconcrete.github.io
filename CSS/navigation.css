@@ -1,13 +1,3 @@
-/** Temporary Red Classifications **/
-.red-text {
-  color: #E02020 !important;
-}
-.red-image {
-  outline: 110px solid rgba(255, 0, 0, 0.5) !important;
-  outline-offset: -110px;
-  overflow: hidden;
-}
-
 .navigation {
   width: 100%;
   height: 80px;
